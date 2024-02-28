@@ -560,8 +560,8 @@ export class SMTPService {
           <table>
             <h2>${name}</h2>
             <div>
-              <p>From Date : ${fromDate}</p>
-              <p>To Date   : ${toDate}</p>
+              <h4>From Date : ${fromDate}</p>
+              <h4>To Date   : ${toDate}</p>
             </div>
             <thead>
               <tr>${headers}</tr>
