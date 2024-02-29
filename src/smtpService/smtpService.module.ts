@@ -3,8 +3,6 @@ import { SMTPServiceController } from "./smtpService.controller";
 import { SMTPService } from "./smtpService.service";
 import { MailerModule } from "@nestjs-modules/mailer";
 
-
-
 @Module({
     imports:[
         MailerModule.forRoot({
@@ -29,7 +27,5 @@ import { MailerModule } from "@nestjs-modules/mailer";
     providers:[SMTPService]
 })
 export class SMTPServiceModule{
-    constructor(){
-        // console.log("====",process.env.GMAIL_USERNAME)
-    }
+    constructor(){}
 }
